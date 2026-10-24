@@ -147,11 +147,10 @@ Possible improvements include:
 6. Integrate with an authorized monitoring platform in a controlled environment.
 7. Require human approval before account-related actions.
 
-13. Video Demonstration
+Video Demonstration
 
-Project Explanation Video: To be added.
-
-The demonstration will explain the project objective, source code, classification logic, sample output, testing, and limitations.
+Watch the explanatory video demonstrating the project, Python code, program output, workflow, testing, and technical documentation.
+https://drive.google.com/file/d/15dwCEXAa-HnDu02XsMddo0UMpb0vrDfI/view?usp=drivesdk
 
 14. References
 
