@@ -27,3 +27,14 @@ The prototype passes when every test case produces the expected classification.
 
 ## Safety Check
 The program only classifies alerts. It does not lock accounts or modify user access. A human analyst must approve any further action.
+
+Additional Test Execution Results
+
+The following test cases were executed using Python and produced the expected outputs:
+
+Input	Expected Output	Actual Output	Status
+-1 failed attempts	Invalid Data	Invalid Data	Pass
+3 failed attempts	Medium Risk	Medium Risk	Pass
+0 failed attempts	Low Risk	Low Risk	Pass
+
+These tests verify the program’s handling of negative input, three failed login attempts, and zero failed attempts.
