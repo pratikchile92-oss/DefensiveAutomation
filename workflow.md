@@ -37,3 +37,23 @@ End
 - Classify and display alerts.
 - Do not automatically block accounts.
 - Human analyst reviews high-risk alerts.
+
+Pseudocode
+
+START
+Read failed_attempts
+Read success_after_failures
+IF failed_attempts is missing:
+    Display "Manual Review"
+ELSE IF failed_attempts is less than 0:
+    Display "Invalid Data"
+ELSE IF failed_attempts is greater than 5:
+    Display "High Risk"
+ELSE IF failed_attempts is 3 or more
+        AND success_after_failures is True:
+    Display "High Risk"
+ELSE IF failed_attempts is 3 or more:
+    Display "Medium Risk"
+ELSE:
+    Display "Low Risk"
+END
